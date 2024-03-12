@@ -1,0 +1,32 @@
+.dropdown {
+  align-items: center;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+  width: fit-content;
+}
+
+.dropdown-open {
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+}
+
+.dropdown:hover {
+  transform: scale(1.2);
+}
+
+.dropdown-menu {
+  background-color: var(--dark-bg);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  position: absolute;
+  top: 6vh;
+  width: 100%;
+}
